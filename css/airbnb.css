@@ -7,6 +7,7 @@
 body {
   background-color: grey;
 }
+/* impostazioni contenitore */
 #contenitore{
   margin: 2% 15%;
   width: 20%;
@@ -14,6 +15,7 @@ body {
   background-color: white;
   position: relative;
 }
+/* impostazioni immagini città */
 .immagini{
   width: 98%;
   height: 32.5%;
@@ -38,15 +40,18 @@ body {
   position: absolute;
   top: calc(65% + 12px);
 }
+/* impostazioni effetto opaco */
 .opaco{
   width: 100%;
   height:100%;
   background-color: rgba(200, 200, 200, 0.4);
   position: relative;
 }
+/* impostazioni nome città con effetto ombra */
 .nomecitta {
   font-size: 30px;
   color: white;
+  text-shadow: 10px 10px 3.5px black;
   position: absolute;
   top: 50%;
   left:50%;

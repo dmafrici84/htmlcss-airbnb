@@ -1,0 +1,43 @@
+/* impostazioni generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+#contenitore{
+  margin: 2% 15%;
+  width: 20%;
+  height: 90vh;
+  background-color: white;
+  position: relative;
+}
+.immagini{
+  width: 98%;
+  height: 32.5%;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+.roma {
+  background-image: url(https://www.wowtravel.it/wp-content/uploads/2018/07/upload474untitleddesign17.jpg);
+  position: absolute;
+  top:4px;
+}
+.copenaghen {
+  background-image: url(https://images.lonelyplanetitalia.it/uploads/il-variopinto-nyhavn-di-sera.jpg?q=80&p=slider&s=edeca3b4fb762de69af5f862a943b7d6);
+  position: absolute;
+  top: calc(32.5% + 8px);
+}
+.madrid {
+  background-image: url(https://www.viaggidellosciamano.com/wp-content/uploads/2017/07/madrid_1920x800.jpg);
+  position: absolute;
+  top: calc(65% + 12px);
+}
+.immagini.roma.opaco{
+  background-color: green;
+}

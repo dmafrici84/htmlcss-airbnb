@@ -38,6 +38,17 @@ body {
   position: absolute;
   top: calc(65% + 12px);
 }
-.immagini.roma.opaco{
-  background-color: green;
+.opaco{
+  width: 100%;
+  height:100%;
+  background-color: rgba(200, 200, 200, 0.4);
+  position: relative;
+}
+.nomecitta {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
 }

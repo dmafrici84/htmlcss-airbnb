@@ -21,39 +21,43 @@ body {
   height: 32.5%;
   background-size: cover;
   background-position: 50% 50%;
-  position: absolute;
-  left:50%;
-  transform: translateX(-50%);
+  position: relative;
 }
-.roma {
+.immagini.roma {
   background-image: url(https://www.wowtravel.it/wp-content/uploads/2018/07/upload474untitleddesign17.jpg);
   position: absolute;
   top:4px;
+  left:50%;
+  transform: translateX(-50%);
 }
-.copenaghen {
+.immagini.copenaghen {
   background-image: url(https://images.lonelyplanetitalia.it/uploads/il-variopinto-nyhavn-di-sera.jpg?q=80&p=slider&s=edeca3b4fb762de69af5f862a943b7d6);
   position: absolute;
   top: calc(32.5% + 8px);
+  left:50%;
+  transform: translateX(-50%);
 }
-.madrid {
+.immagini.madrid {
   background-image: url(https://www.viaggidellosciamano.com/wp-content/uploads/2017/07/madrid_1920x800.jpg);
   position: absolute;
   top: calc(65% + 12px);
+  left:50%;
+  transform: translateX(-50%);
 }
 /* impostazioni effetto opaco */
-.opaco{
+.immagini .opaco{
   width: 100%;
   height:100%;
   background-color: rgba(200, 200, 200, 0.4);
-  position: relative;
 }
 /* impostazioni nome città con effetto ombra */
-.nomecitta {
+.immagini .nomecitta {
+  width: 100%;
   font-size: 30px;
   color: white;
   text-shadow: 10px 10px 3.5px black;
+  text-align: center;
   position: absolute;
   top: 50%;
-  left:50%;
-  transform: translate(-50% , -50%);
+  transform: translateY(-50%);
 }
